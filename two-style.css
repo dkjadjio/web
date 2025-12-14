@@ -1,0 +1,29 @@
+ body {
+            margin: 0;
+            padding: 0;
+            background-color: #faf0da;
+            font-family: 'Chiron GoRound TC', sans-serif;
+            display: flex;
+            height: 100vh;}
+h1,
+h2,
+h3,
+h4,
+h6,
+.Jua-font
+ {font-family: 'Jua', sans-serif;}
+
+
+ /* 뉴스 */
+#news {
+    background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5)), url(img/ruu.png);
+    background-size: cover;
+    background-position: center;
+}
+
+/* 유튜브 */
+#youtube-links {
+    background-image: linear-gradient(rgba(0,0,0,1), rgba(0, 0, 0, 0.5)), url(img/ou.png);
+    background-size: cover;
+    background-position: center;
+}

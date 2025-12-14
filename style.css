@@ -1,0 +1,56 @@
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #faf0da;
+            font-family: "Jua", system-ui;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            text-align: center;
+        }
+
+        .title {
+            font-size: 90px;
+            line-height: 1.2;
+            color: #c7bbce;
+            -webkit-text-stroke: 4px #5b5c67;
+            white-space: nowrap;
+        }
+
+        .pencil {
+            width: 100px;
+            margin-left: 20px;
+            vertical-align: middle;
+        }
+
+        .wrapper {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 15px;
+        }
+
+     .pencil-text {
+    position: fixed; 
+
+    top: 20px; 
+  
+    left: 50%;
+    transform: translateX(-50%);
+
+    z-index: 100;
+    
+    width: 100%; 
+    text-align: center;
+}
+
+       .pencil-text p { 
+    font-family: 'Chiron GoRound TC', sans-serif;
+    font-size: 15px; 
+    color: #5b5c67; 
+    
+}
